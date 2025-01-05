@@ -21,8 +21,6 @@ import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
-    StudentListComponent,
-
     AddressListComponent,
     AddressFormComponent,
     NavbarComponent,
