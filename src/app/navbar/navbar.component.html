@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button aria-label="Menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span class="toolbar-title">My Application</span>
+  <span class="spacer"></span>
+  <button mat-button [routerLink]="'/students'" routerLinkActive="active-link">
+    Students
+  </button>
+  <button
+    mat-button
+    [routerLink]="'/students/new'"
+    routerLinkActive="active-link"
+  >
+    Add Student
+  </button>
+  <button mat-button [routerLink]="'/addresses'" routerLinkActive="active-link">
+    Addresses
+  </button>
+  <button
+    mat-button
+    [routerLink]="'/addresses/add'"
+    routerLinkActive="active-link"
+  >
+    Add Address
+  </button>
+</mat-toolbar>

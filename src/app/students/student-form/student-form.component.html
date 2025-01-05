@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <h2>Student Form</h2>
+  <form (ngSubmit)="saveStudent()">
+    <div class="form-group">
+      <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput type="text" [(ngModel)]="student.firstName" name="firstName" placeholder="Enter First Name"  />
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput type="text" [(ngModel)]="student.lastName" name="lastName" placeholder="Enter Last Name"  />
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" [(ngModel)]="student.email" name="email" placeholder="Enter Email" />
+      </mat-form-field>
+    </div>
+    <div class="form-group">
+      <mat-form-field appearance="fill">
+        <mat-label>Address ID</mat-label>
+        <input matInput type="number" [(ngModel)]="student.addressId" name="addressId" placeholder="Enter Address ID" />
+      </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" type="submit" class="mt-2">Save</button>
+  </form>
+</div>
