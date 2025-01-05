@@ -22,10 +22,11 @@ import { MatIconModule } from '@angular/material/icon';
   declarations: [
     AppComponent,
     StudentListComponent,
-    StudentFormComponent,
+
     AddressListComponent,
     AddressFormComponent,
-    NavbarComponent
+    NavbarComponent,
+
   ],
   imports: [
     BrowserModule,
